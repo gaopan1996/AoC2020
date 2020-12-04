@@ -20,7 +20,7 @@ with open('input.txt') as input_file:
             expense_pair = lines[first_increment]
             expense_trio = 2020 - int(expense) - int(expense_pair)
             if str(expense_trio) in lines:
-                print(int(expense)*int(expense_pair)*expense_trio)
+                print(f'Solution: {int(expense)*int(expense_pair)*expense_trio}')
                 exit()
             first_increment += 1
         count += 1

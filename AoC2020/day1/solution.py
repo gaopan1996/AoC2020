@@ -34,5 +34,5 @@ with open('input.txt') as input_file:
     for expense in lines:
         expense_pair = 2020 - int(expense)
         if str(expense_pair) in lines:
-            print(int(expense)*expense_pair)
+            print(f'Solution: {int(expense)*expense_pair}')
             break
