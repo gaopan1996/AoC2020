@@ -52,7 +52,7 @@ def calculate_seat(seat_line):
     row = int(rowBinary,2)
     column = int(columnBinary,2)
     return row, column
-.
+
 with open('input.txt', "r") as input_file:
     arr = input_file.read().splitlines()
     maxSid = 0
